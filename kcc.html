@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <title>kisan Credit Card</title>
+  <style>
+  span {
+     display: inline-block;
+     width: 220px;
+     height: 240px;
+     margin: 50px;
+     background-color:lightgrey;
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="nav nav-pills nav-justified bg-danger"role="tablist">
+    <li class="nav-item">
+      <a class="nav-link"  href="Project_Main_page.html">Personal</a>
+    </li>
+   <li class="nav-item">
+     <a class="nav-link"  href="nri.html">NRI</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link"  href="aboutUs.html">About Us</a>
+   </li>
+  <form class="form-inline" action="/action_page.php">
+   <input class="form-control mr-sm-2" type="text" placeholder="Search..">
+   <button  class="btn btn-body" type="submit">Search</button>
+  </form>
+   <li class="nav-item">
+      <a class="nav-link"  href="careers.html">Careers</a>
+   </li>
+ </ul>
+
+ <nav class="navbar navbar-expand-sm bg-light navbar-light">
+<a class="navbar-brand" href="#">
+  <img src="logo.png" alt="D:\Web Devlopment\html outputs\my programs\Project1" style="width:400px;">
+</a>
+
+<div class="dropdown">
+ <button type="button" class="btn btn-light dropdown-toggle p-3 ml-4" data-toggle="dropdown">Products </button>
+ <div class="dropdown-menu bg-light">
+   <h5 class="dropdown-header"><b>Account</b></h5>
+   <a class="dropdown-item" href="account.html">Saving Acoount</a>
+   <a class="dropdown-item" href="salary.html">Salary Account</a>
+   <a class="dropdown-item" href="current.html">Current Acoount</a>
+   <h5 class="dropdown-header"><b>Insurance</b></h5>
+   <a class="dropdown-item" href="lifeInsurance.html">Life Insurance</a>
+   <a class="dropdown-item" href="generalInsurance.html">General Insurance</a>
+   <a class="dropdown-item" href="healthInsurance.html">Health Insurance</a>
+    <h5 class="dropdown-header"><b>Cards</b></h5>
+    <a class="dropdown-item" href="creditCard.html">Credit Card</a>
+    <a class="dropdown-item" href="debitCard.html">Debit Card</a>
+    <a class="dropdown-item" href="prepaid.html">Pre-Paid Card</a>
+    <a class="dropdown-item" href="transit.html">Transit Card</a>
+ </div>
+</div>
+
+<div class="dropdown">
+<button type="button" class="btn btn-light dropdown-toggle p-3 ml-4" data-toggle="dropdown">Services</button>
+<div class="dropdown-menu">
+  <a class="dropdown-item" href="otpbased.html">OTP Based Aadhaar Seeding</a>
+  <a class="dropdown-item" href="retail.html">Retail Internet Banking</a>
+  <a class="dropdown-item" href="corporate.html">Corporate Internet Banking</a>
+  <a class="dropdown-item" href="bhim.html">BHIM</a>
+  <a class="dropdown-item" href="sms.html">Sms Banking</a>
+  <a class="dropdown-item" href="greenPin.html">Green-pin Debit Card</a>
+  <a class="dropdown-item" href="more.html">more...</a>
+</div>
+</div>
+
+<div class="dropdown">
+ <button type="button" class="btn btn-light dropdown-toggle p-3 ml-4" data-toggle="dropdown">Make Payment</button>
+ <div class="dropdown-menu">
+   <h2 class="dropdown-header"><b>Recharge and Bills Pays</b></h2>
+   <a class="dropdown-item" href="bill.html">Bill Pay</a>
+   <a class="dropdown-item" href="bill.html">Recharge</a>
+   <a class="dropdown-item" href="locker.html">Locker Rent</a>
+   <h2 class="dropdown-header"><b>Investent and Donation</b></h2>
+   <a class="dropdown-item" href="insurance.html">Insurance Premium</a>
+   <a class="dropdown-item" href="fixed.html">Fixed Deposites</a>
+   <a class="dropdown-item" href="sip.html">System Investent Plan(SIP)</a>
+   <a class="dropdown-item" href="loan.html">Loan Repayment</a>
+   <h2 class="dropdown-header"><b>Pay Taxes</b></h2>
+   <a class="dropdown-item" href="incomeTax.html">Income and Other Direct Tax</a>
+   <a class="dropdown-item" href="central.html">Central and service Tax</a>
+   <a class="dropdown-item" href="state.html">State wise tax</a>
+    <a class="dropdown-item" href="tax.html">Tax Assist</a>
+ </div>
+</div>
+
+
+
+<div class="dropdown">
+ <button type="button" class="btn btn-light dropdown-toggle p-3 ml-4" data-toggle="dropdown">Apply Now</button>
+ <div class="dropdown-menu">
+   <h5 class="dropdown-header col"><b>Retail</b></h5>
+   <a class="dropdown-item" href="home.html">Home Loans</a>
+   <a class="dropdown-item" href="car.html">Car Loans</a>
+   <a class="dropdown-item" href="gold.html">Gold Loans</a>
+   <a class="dropdown-item" href="business.html">Business Loans</a>
+   <a class="dropdown-item" href="education.html">Education Loans</a>
+   <a class="dropdown-item" href="mutual.html">Mutual Funds</a>
+   <h5 class="dropdown-header col"><b>Agriculture and Rural</b></h5>
+   <a class="dropdown-item" href="tractor.html">Tractor Loans</a>
+   <a class="dropdown-item" href="kcc.html">Kissan Credit Card(KCC)</a>
+   <a class="dropdown-item" href="rural.html">Loan for Rural Godown</a>
+   <a class="dropdown-item" href="warehouse.html">Warehouse Receipt Loans</a>
+ </div>
+</div>
+
+
+
+<div class="dropdown">
+<button type="button" class="btn btn-light dropdown-toggle p-3 ml-4" data-toggle="dropdown">Get in Touch</button>
+<div class="dropdown-menu">
+  <a class="dropdown-item" href="contact.html">Contact Us</a>
+  <a class="dropdown-item" href="safeBanking.html">Safe Banking</a>
+  <a class="dropdown-item" href="help.html">Help</a>
+  <a class="dropdown-item" href="findAtm.html">Find Atm Branch</a>
+  <a class="dropdown-item" href="service.html">Service Request</a>
+  <a class="dropdown-item" href="feedback.html">Feedback</a>
+</div>
+</div>
+<li class="nav-item">
+ <a href="#" class="btn btn-danger m-4" data-toggle="modal" data-target="#myModal">Login</a>
+</li>
+</nav>
+
+
+
+<div class="modal  fade " id="myModal">
+ <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header ">
+         <img src="logo.png" alt="D:\Web Devlopment\html outputs\my programs\Project1" width="100%" height="80">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      </div>
+
+      <div class="modal-body">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Register</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active"><br>
+            <label for="uname"><b>Username:</b></label><br>
+            <input type="text" class="form-control" placeholder="Enter Username" id="my1" name="uname" required><br>
+            <label for="psw"><b>Password:</b></label><br>
+            <input type="password" class="form-control" placeholder="Enter Password" id="my2" name="psw" required><br>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label><br>
+            <a href="business.html" class="btn btn-success form-control" id="login">Login</a><br><br><hr>
+          </div>
+          <div id="menu1" class="container tab-pane fade"><br>
+            <label for="uname"><b>Username:</b></label><br>
+            <input type="text" class="form-control" placeholder="Enter Username" id="my3" name="uname" required><br>
+            <label for="psw"><b>Password:</b></label><br>
+            <input type="password" class="form-control" placeholder="Enter new Password" id="my4" name="psw" required><br>
+            <label for="psw"><b>Re-enter Password:</b></label><br>
+            <input type="password" class="form-control" placeholder="Enter conform Password" id="my5" name="psw" required><br>
+            <label for="select"><b>Select security question*</b></label><br>
+            <select name="Select " id="">
+              <option>What is Your Nationality</option>
+              <option>What is Your school name</option>
+              <option>What is Your Favourite Color</option>
+              <option>What is Your Birthday</option>
+            </select><br><br>
+            <label for="psw"><b>Answer to security question*</b></label><br>
+            <input type="text" class="form-control"><br>
+            <a href="current.html" class="btn btn-success form-control" id="login1">Submit</a><br><br><hr>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+     </div>
+  </div>
+</div>
+
+
+ <script>
+   $(document).ready(function(){
+   $('#login').hide();
+
+
+  });
+
+  $('#my2').on('blur',function(){
+
+  var get1=document.getElementById('my1').value;
+  var get2=document.getElementById('my2').value;
+  if((get1=='')&&(get2=='')){
+  alert("Enter Username and Password");
+  }
+  else{
+  $('#login').show();
+  }
+  });
+</script>
+
+ <script>
+   $(document).ready(function(){
+   $('#login1').hide();
+
+
+   });
+
+   $('#my3').on('blur',function(){
+
+   var get1=document.getElementById('my3').value;
+   var get2=document.getElementById('my4').value;
+   if((get1=='')&&(get2=='')){
+   alert("Enter Username and Password");
+   }
+   else{
+   $('#login1').show();
+   }
+   });
+ </script>
+
+
+
+
+
+
+  <div id="kcc" class="container-fluid bg-light">
+   <h6>Home &#10095; Apply now &#10095;Kissan Credit Card</h6>
+   </div>
+   <div class="bg-info"><br><br><br>
+  <div class="container jumbotron">
+    <div class="row">
+      <div class="col-3">
+        <img src="kcc.jpg" alt="D:\Web Devlopment\html outputs\my programs\Project1" height="200" width="250"><br><br>
+      </div>
+
+      <h3 class="text-danger">KISAN CREDIT CARD</h3>
+      <div class="col-9">
+
+        <p> <b>1. Kisan Credit Card is provided with the following objectives :- </b> </p>
+        <ol type="a">
+          <li>The short term credit requirements for cultivation of crops</li>
+          <li>Post harvest expenses</li>
+          <li>Produce marketing loan</li>
+          <li>Consumption requirements of farmer household</li>
+          <li>Working capital for maintenance of farm assets and activities allied to agriculture,
+            like dairy animals, inland fishery etc.</li>
+          <li>Investment credit requirement for agriculture and allied activities like pumpsets, sprayers, dairy animals etc</li>
+       </ol>
+       <p> <b>2.ELIGIBILITY </b> </p>
+       <ol type="a">
+         <li>All Farmers – Individuals / Joint borrowers who are owner cultivators</li>
+         <li>Tenant Farmers, Oral Lessees & Share Croppers</li>
+         <li>SHGs /JLGs of Farmers including tenant farmers, share croppers etc.</li>
+       </ol>
+       <p> <b> Fixation of credit limit/Loan amount </b> </p>
+       <p>A)All farmers other than marginal farmers:</p>
+       <ol type="a">
+         <li>For first year: farmers raising single crop in a year(scale of finance*area cultivated +10% of limit towards post-harvest/house
+           hold/consumption needs+ 20% of limit towards repairs and maintenance expenses of farm assets +
+           crop insurance, PAIS and asset insurance.</li>
+        <li>For subsequent years: First year limit plus 10% of the limit towards cost escalation/increase in scale of finance for every
+          successive year and estimated term loan for the tenure of kisan credit card.</li>
+          <li>In case revision of scale of finance for any year by the DLTC exceeds the notional hike of 10%,
+             a revised drawable limit may be fixed and the farmer is advised about the same.</li>
+          <p><li> <b>Term loans Investments </b> </li></p>
+          <li>Term Loan is provided towards investment in land development, minor irrigation, purchase of farm equipments and allied agricultural
+            activities. The quantum of credit for term and working capital limit for agricultural and allied activities, etc., is worked out based on the
+            unit cost of the asset/s proposed to be acquired by the farmer, the allied activities already being undertaken on the farm, and on repayment capacity vis-a-vis total
+            loan burden devolving on the farmer, including existing loan obligations.</li>
+            <li>The long term loan limit is based on the proposed investments during the five year period and the bank’s perception on the repaying capacity of the farmer</li>
+           <p> <li> <b>Maximum Permissible Limit: </b> </li> </p>
+           <li>he short term loan limit arrived for the 5th year plus the estimated long term loan requirement will be the Maximum Permissible Limit (MPL) and treated as the Kisan Credit Card Limit.</li>
+           <p> <li> <b>Fixation of Sub-limits </b> </li> </p>
+           <li>The card limit is bifurcated into separate sub limits for short term cash credit limit cum savings account and term loans, due to difference in interest rates,
+              repayment schedule and norms.</li>
+        </ol>
+        <p> B) For Marginal Farmers:</p>
+        <ol type="a">
+        <li>A flexible limit of Rs.10,000 to Rs.50,000 be provided (as Flexi KCC) based on the land holding and crops grown including post harvest warehouse storage related credit needs and other farm expenses, consumption needs, etc., plus small term loan investments like purchase of farm equipments, establishing mini dairy/backyard poultry as per assessment of Branch Manager without relating it to the value of land. The composite KCC limit is to be fixed for a period of five years on this basis.</li>
+        </ol>
+        <p> <b>4. Disbursement :</b> </p>
+        <ol type="a">
+          <li>The short term component of the KCC limit is in the nature of revolving cash credit facility.</li>
+          <li>There is no restriction in number of debits and credits.</li>
+          <li>The drawing limit for the current season/year could be allowed to be drawn using any of the following delivery channels e.g. Operations through branch, using Cheque facility, Withdrawal through ATM enabled KCC, Operations through Business Correspondents, Operation through PoS available in Sugar Mills/ Contract farming companies, input dealers,
+             Mobile based transfer transactions at agricultural input dealers and mandies etc.</li>
+          <li>Issuance of ATM enabled Rupay card to eligible farmers.</li>
+        </ol>
+        <p> <b>5. Rate of interest</b> </p>
+        <ol type="a">
+        <li>ROI will be linked to MCLR. However, if Government supported interest subvention is provided for any component of the limit,
+           the rate of interest may be fixed accordingly.</li>
+        </ol>
+        <p> <b>6. Margin:</b> </p>
+        <ol type="a">
+          <li>For crop loans, no separate margin. For term loan component, margin will be:
+            <br>Upto Rs 1.00 lac - NIL
+            <br>Above Rs 1.00 lac - 15%</li>
+        </ol>
+        <p> <b>7. Security:</b> </p>
+        <ol type="a">
+          <li>For crop loans, no separate margin. For term loan component, margin will be:
+            <br>Upto Rs 1.00 lac - NIL
+            <br>Above Rs 1.00 lac - 15%</li>
+        </ol>
+        <p> <b>8.Documentation:</b> </p>
+        <ol type="a">
+          <li>The scheme provides fixation of scale of Finance for the first year and subsequent increase for every successive year. Therefore documentation will be done by the Bank
+            only for maximum limit so that there is no need of documentation during the validity of account.</li>
+          <li>Where the validity period of KCC is 5 years, there might be a legal requirement to renew the
+            account by taking a fresh letter from the farmer before expiry of 3 years.</li>
+        </ol>
+        <p class="text-center ml-5"> <a href="https://www.redeposit.com/gblogin.asp?lv=sb21" class="btn btn-primary ml-5">I Agree</a> </p>
+      </div>
+
+    </div>
+  </div><br><br>
+  </div>
+
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-sm bg-warning">
+   <ul class="navbar-nav">
+     <li class="nav-item">
+      <a class="text-danger">News:</a>
+     </li>
+     <marquee >Signature bank launches'Advantage women aura saving account for working women'.</marquee>
+  </ul>
+ </nav>
+    <div class="container-fluid">
+    <div class="bg-light p-3">
+    <div class="row">
+      <div class="col-sm">
+        <h6><b>Explore</b></h6>
+       <a href="creditCard.html">Credit Card</a><br>
+       <a href="retail.html">Internet Banking</a><br>
+       <a href="nri.html">NRI Services</a><br><br>
+       <h6> <b>Get Un Touch</b> </h6>
+        <a href="aboutUs.html">About Us</a><br>
+       <a href="careers.html">Careers</a><br>
+     </div>
+      <div class="col-sm">
+       <h6> <b>Rates and Charges</b> </h6>
+       <a href="mutual.html">Interest Rates</a><br>
+       <a href="incomeTax.html">Tax Benefits</a><br><br>
+       <h6> <b>Others</b> </h6>
+       <a href="contact.html">Contact us</a><br>
+       <a href="careers.html">Recruiments</a><br>
+       <a href="feedback.html">For Fedback</a><br>
+       <a href="service.html">Service Request</a>
+      </div>
+      <div class="col-sm">
+       <h6> <b>Visit Us</b> </h6>
+       <a href="https://www.facebook.com/Signature-Bank-283998924947738/">Signature Bank Twitter Page</a><br>
+       <a href="https://twitter.com/signaturebankny?lang=en">Signature Bank Twitter Page</a><br>
+       <a href="https://www.instagram.com/explore/locations/167395313277853/signature-bank">Signature Bank Instagram Page</a><br><br>
+       <h6> <b>Contact us</b> </h6>
+       <p>Call: 1800-419-5959</p>
+       <a href="help.html">For Help</a>
+       </div>
+
+<div class="col-sm">
+ <h6>Signature Bank Group Websites</h6>
+<form action="/action_page.php">
+<select name="group" class="custom-select mb-3">
+<option selected>Select Websites</option>
+<option value="a">Signature Group</option>
+<option value="b">Signature Foundation</option>
+<option value="c">Signature General Insurance</option>
+<option value="d">Signature Securities</option>
+<option value="e">Signature Home Finance</option>
+<option value="f">Signature Careers</option>
+</select>
+</form>
+<h6>Signature Bank Country Werbsites</h6>
+<form action="/action_page.php">
+   <select name="Country" class="custom-select mb-3">
+   <option selected>Select Country</option>
+   <option value="a">Singapure</option>
+   <option value="b">Uk</option>
+   <option value="c">France</option>
+   <option value="d">Japan</option>
+   <option value="e">India</option>
+   <option value="f">US</option>
+ </select>
+</form>
+</div>
+</div><br>
+<p class="small text-center">Terms and condition | Do Not Call Registry | Declaimer | Code of Commitment | Customer Service Policies |
+Use of <a href="privacy.html">Privacy Policy</a> </p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
